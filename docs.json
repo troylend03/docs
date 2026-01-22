@@ -14,6 +14,20 @@
   "background": {
     "decoration": "grid"
   },
+  "seo": {
+    "indexing": "all",
+    "metatags": {
+      "og:site_name": "Rallies Support Center",
+      "og:type": "website",
+      "og:locale": "en_US",
+      "twitter:card": "summary_large_image",
+      "twitter:site": "@ralliesai",
+      "robots": "index, follow",
+      "language": "en",
+      "author": "Rallies.ai",
+      "keywords": "Rallies, Rallies.ai, AI stock research, investment research, portfolio tracking, stock screener, AI assistant, stock analysis, watchlists, price alerts"
+    }
+  },
   "navigation": {
     "tabs": [
       {
