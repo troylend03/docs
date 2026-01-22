@@ -1,0 +1,256 @@
+---
+title: "About Our Data Sources"
+description: "Learn where Rallies.ai gets its financial data. Understand our data sources for stock prices, financials, analyst ratings, and more."
+---
+
+# About Our Data Sources
+
+Transparency matters. This article explains where Rallies gets its financial data, how often it updates, and what you should know about data quality and limitations.
+
+## Our Data Philosophy
+
+We believe in:
+- **Professional-grade data** — The same quality institutional investors use
+- **Transparency** — You should know where information comes from
+- **Accuracy over speed** — We verify data quality, not just delivery speed
+- **Clear limitations** — We tell you what we don't know
+
+## Data Categories and Sources
+
+### Stock Prices
+
+**What:** Real-time and historical price data for stocks and ETFs
+
+**Sources:** We aggregate from major market data providers that connect directly to US exchanges (NYSE, NASDAQ, etc.)
+
+**Update frequency:**
+- Pro: Real-time during market hours
+- Free: 15-minute delayed
+
+**Coverage:** US stocks, major ETFs, and select international securities
+
+### Financial Statements
+
+**What:** Income statements, balance sheets, and cash flow statements
+
+**Sources:** 
+- SEC EDGAR filings (10-K, 10-Q, 8-K)
+- Professional financial data providers
+- Company investor relations disclosures
+
+**Update frequency:** When companies report (typically quarterly)
+
+**Coverage:** All US public companies required to file with SEC
+
+### Analyst Ratings & Estimates
+
+**What:** Buy/sell ratings, price targets, and earnings estimates
+
+**Sources:** Aggregated from major sell-side research providers
+
+**Update frequency:** As analysts publish (varies by coverage)
+
+**Coverage:** Varies by stock—large caps have more coverage than small caps
+
+### Insider Transactions
+
+**What:** Buying and selling by company executives and directors
+
+**Sources:** SEC Form 4 filings
+
+**Update frequency:** As filed (within 2 business days of transaction)
+
+**Coverage:** All US public companies
+
+### Institutional Ownership
+
+**What:** Which institutions own shares and how much
+
+**Sources:** SEC 13F filings
+
+**Update frequency:** Quarterly (filings are due 45 days after quarter end)
+
+**Coverage:** Institutions managing $100M+ must file
+
+### Company Information
+
+**What:** Business descriptions, sector classifications, employee counts, headquarters
+
+**Sources:** SEC filings, company websites, professional data providers
+
+**Update frequency:** As changes occur (typically verified quarterly)
+
+**Coverage:** All US public companies
+
+### News
+
+**What:** Headlines and articles about companies and markets
+
+**Sources:** Major financial news providers, press releases, SEC filings
+
+**Update frequency:** Continuous
+
+**Coverage:** Varies by company prominence
+
+### Dividends
+
+**What:** Dividend amounts, dates, yields, and history
+
+**Sources:** Company announcements, SEC filings, exchange data
+
+**Update frequency:** As declared and paid
+
+**Coverage:** All dividend-paying US stocks
+
+## Data Freshness
+
+| Data Type | How Fresh |
+|-----------|-----------|
+| Stock prices (Pro) | Real-time |
+| Stock prices (Free) | 15-minute delay |
+| Financials | Most recent quarterly/annual report |
+| Analyst ratings | As published (often same day) |
+| Insider trades | 1-2 days after filing |
+| Institutional holdings | Quarterly (with 45-day lag) |
+| News | Continuous |
+| Dividends | As announced |
+
+## Data Quality
+
+### What We Do to Ensure Accuracy
+
+- **Multiple source verification** — Cross-check data across providers
+- **Automated validation** — Flag anomalies and outliers
+- **Regular audits** — Periodically verify against primary sources
+- **User feedback integration** — Investigate reported discrepancies
+
+### Known Limitations
+
+Despite our efforts, be aware:
+
+- **Data can have errors** — No data provider is perfect
+- **Timing gaps exist** — There's always some delay between events and data
+- **Coverage varies** — Small caps and international stocks have less data
+- **Estimates are estimates** — Analyst projections are opinions, not facts
+- **Historical data changes** — Companies restate financials; we update accordingly
+
+## Free vs. Pro Data
+
+| Data Feature | Free | Pro |
+|--------------|------|-----|
+| Price quotes | 15-min delayed | Real-time |
+| Historical prices | ✓ | ✓ |
+| Financial statements | ✓ | ✓ |
+| Analyst ratings | ✓ | ✓ |
+| Insider transactions | ✓ | ✓ |
+| News | ✓ | ✓ |
+| Deep Research data | Limited | Full |
+
+The underlying data is the same—Pro provides faster price updates and fuller access to advanced features.
+
+## AI and Data
+
+### How the AI Uses Data
+
+The AI Research Assistant pulls from our data sources to answer your questions. When you ask about a stock:
+
+1. AI identifies what data is relevant
+2. Retrieves current information from our databases
+3. Synthesizes and explains it in natural language
+
+### AI Data Limitations
+
+The AI's knowledge is only as good as our data:
+- If data is delayed, AI answers reflect that delay
+- If coverage is limited, AI will indicate that
+- AI may occasionally misinterpret or miscalculate—always verify important decisions
+
+[Understanding AI limitations →](/ai-assistant/limitations)
+
+## Verifying Data
+
+For important decisions, we recommend verifying with primary sources:
+
+### SEC EDGAR
+[sec.gov/edgar](https://www.sec.gov/edgar/searchedgar/companysearch.html)
+Official source for all SEC filings—financials, insider trades, institutional holdings
+
+### Company Investor Relations
+Most public companies have an IR website with earnings releases, presentations, and filings
+
+### Your Brokerage
+For real-time prices and your account data, your brokerage is the authoritative source
+
+## Reporting Data Issues
+
+If you spot data that seems wrong:
+
+1. **Double-check the source** — Verify against SEC or company IR
+2. **Consider timing** — Data might not have updated yet
+3. **Report to us** — [Contact support](/support/contact) with:
+   - The ticker symbol
+   - What data point seems wrong
+   - What you believe the correct value is
+   - Your source for the correct value
+
+We investigate all reported discrepancies and correct confirmed errors.
+
+## Data We Don't Have
+
+To set expectations, here's what we don't provide:
+
+- **Pre-market/after-hours prices** — Limited display of extended hours data
+- **Level 2 quotes** — We show best bid/ask, not full order book
+- **Options data** — Limited options coverage
+- **Futures/commodities** — Not currently covered
+- **Forex** — Not currently covered
+- **Crypto** — Not currently covered
+- **Private company data** — Only public companies
+- **Real-time news sentiment** — News is shown but not scored in real-time
+
+## Third-Party Data Attribution
+
+Our data comes from professional financial data providers. While we don't publicly list all vendor names, our sources include:
+- Direct exchange feeds
+- Major financial data aggregators
+- SEC filing databases
+- News wire services
+
+All data is used in accordance with licensing agreements and redistribution rights.
+
+---
+
+## Frequently Asked Questions
+
+### Where do stock prices come from?
+
+From market data providers connected to US exchanges. Pro users get real-time feeds; Free users get 15-minute delayed data.
+
+### How accurate is the financial data?
+
+We source from professional-grade providers and verify against SEC filings. Accuracy is high, but no data source is perfect—verify important figures with primary sources.
+
+### Why might data differ from other sites?
+
+Different providers, different update timing, different calculation methodologies. Small variations are normal; large discrepancies should be investigated.
+
+### Can I request data you don't currently have?
+
+Yes! [Send us feedback](/support/feedback) about data you'd like to see. We regularly expand coverage based on user requests.
+
+### Is international stock data available?
+
+We have coverage of select international securities, but US stocks have the most comprehensive data. Coverage is expanding over time.
+
+---
+
+## Related Articles
+
+- [Data Coverage & Limitations](/data/coverage)
+- [Understanding AI Limitations](/ai-assistant/limitations)
+- [Understanding Stock Pages](/research/stock-pages)
+- [Data Isn't Loading or Updating](/troubleshooting/data-not-updating)
+
+---
+
+---

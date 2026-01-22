@@ -1,0 +1,230 @@
+---
+title: "Setting Up Two-Factor Authentication"
+description: "Add an extra layer of security to your Rallies.ai account with two-factor authentication. Learn how to set up 2FA using an authenticator app or SMS."
+---
+
+# Setting Up Two-Factor Authentication
+
+Two-factor authentication (2FA) adds an extra layer of security to your account. Even if someone gets your password, they can't access your account without the second factor—a code from your phone.
+
+## What is Two-Factor Authentication?
+
+With 2FA enabled, signing in requires:
+
+1. **Something you know** — Your password
+2. **Something you have** — A code from your phone
+
+This means a hacker would need both your password AND physical access to your phone to get into your account.
+
+## Choose Your 2FA Method
+
+Rallies supports two methods:
+
+| Method | Security Level | How It Works |
+|--------|---------------|--------------|
+| **Authenticator App** (Recommended) | High | App generates codes that refresh every 30 seconds |
+| **SMS Text Message** | Medium | Code sent via text to your phone number |
+
+We recommend using an authenticator app—it's more secure and works even without cell service.
+
+### Recommended Authenticator Apps
+
+Any TOTP (Time-based One-Time Password) app works:
+
+- **Google Authenticator** (iOS, Android) — Simple and free
+- **Authy** (iOS, Android, Desktop) — Syncs across devices
+- **1Password** (iOS, Android, Desktop) — If you already use it for passwords
+- **Microsoft Authenticator** (iOS, Android) — Good for Microsoft users
+
+Download one before starting setup.
+
+## Set Up 2FA on Web
+
+### Using an Authenticator App
+
+1. Go to [rallies.ai](https://rallies.ai) and sign in
+
+2. Click your **profile icon** → **Settings**
+
+3. Click the **"Security"** tab
+
+4. Find **Two-Factor Authentication** and click **"Enable"**
+
+5. Select **"Authenticator App"**
+
+6. You'll see a **QR code** on screen
+
+7. Open your authenticator app and **scan the QR code**
+   - In most apps: tap "+" or "Add account," then "Scan QR code"
+
+8. Your app will now show a **6-digit code** that refreshes every 30 seconds
+
+9. Enter the current code from your app into Rallies
+
+10. Click **"Verify"**
+
+11. **Save your backup codes!** — You'll be shown recovery codes. Store these somewhere safe (password manager, printed copy, etc.)
+
+12. Done! 2FA is now active.
+
+### Using SMS
+
+1. Go to **Settings → Security**
+
+2. Click **"Enable"** under Two-Factor Authentication
+
+3. Select **"SMS / Text Message"**
+
+4. Enter your **phone number**
+
+5. Click **"Send Code"**
+
+6. Enter the **6-digit code** you receive via text
+
+7. Click **"Verify"**
+
+8. **Save your backup codes!**
+
+9. Done! You'll receive a text code each time you sign in.
+
+## Set Up 2FA on Mobile
+
+### iOS
+
+1. Open Rallies app → **Settings** → **Security**
+2. Tap **"Two-Factor Authentication"**
+3. Choose **Authenticator App** or **SMS**
+4. Follow the prompts to scan QR code or verify phone number
+5. Save your backup codes
+
+### Android
+
+1. Open Rallies app → **Menu** → **Settings** → **Security**
+2. Tap **"Two-Factor Authentication"**
+3. Choose your method and follow the setup prompts
+4. Save your backup codes
+
+## About Backup Codes
+
+When you enable 2FA, you'll receive **backup codes**. These are one-time-use codes that let you sign in if you lose access to your authenticator or phone.
+
+**Important:**
+- Each code can only be used once
+- Store them in a safe place (password manager, safe, printed in secure location)
+- Don't store them on the same phone as your authenticator (if your phone is lost, you lose both)
+- You can generate new codes anytime from Settings → Security
+
+## Signing In with 2FA
+
+Once 2FA is enabled, signing in works like this:
+
+1. Enter your email and password as usual
+2. You'll be prompted for a verification code
+3. **If using an authenticator app:** Open the app and enter the current 6-digit code
+4. **If using SMS:** Wait for the text and enter the code
+5. Click "Verify" to complete sign-in
+
+The code is only valid for a short time (usually 30 seconds for authenticator apps), so enter it promptly.
+
+## Disable 2FA
+
+If you need to turn off two-factor authentication:
+
+1. Go to **Settings → Security**
+2. Find **Two-Factor Authentication**
+3. Click **"Disable"** or **"Turn Off"**
+4. Enter your password to confirm
+5. Enter a 2FA code (or backup code) to verify it's you
+6. 2FA is now disabled
+
+> ⚠️ **Note:** We recommend keeping 2FA enabled for security. Only disable if you have a specific reason.
+
+## Troubleshooting
+
+### "Invalid code" when setting up
+
+- Make sure you're entering the **current** code (they refresh every 30 seconds)
+- Check that your phone's time is accurate (authenticator apps are time-sensitive)
+- Try waiting for a new code and entering it immediately
+
+### Lost access to your authenticator app
+
+Use one of your **backup codes** to sign in:
+1. On the 2FA prompt, click "Use backup code"
+2. Enter one of your saved backup codes
+3. Once signed in, go to Settings → Security to set up a new authenticator
+
+### Lost your phone AND backup codes
+
+[Contact support](/support/contact) with:
+- Your account email
+- Information to verify your identity (when you signed up, subscription status, etc.)
+
+We'll verify your identity and help you regain access. This may take 1-2 business days.
+
+### SMS codes not arriving
+
+- Make sure you entered the correct phone number
+- Check you have cell service
+- Wait a few minutes—texts can be delayed
+- Try requesting a new code
+- Check if your carrier blocks short codes
+
+### Authenticator codes not working
+
+- Verify your phone's date/time is set to automatic
+- Make sure you're scanning the QR code for Rallies (not another service)
+- Try removing and re-adding the account in your authenticator app
+
+## If You Use Google/Apple Sign-In
+
+If you sign in with Google or Apple, 2FA is managed by those providers:
+
+- **Google:** [myaccount.google.com/security](https://myaccount.google.com/security)
+- **Apple:** Settings → [Your Name] → Sign-In & Security → Two-Factor Authentication
+
+Google and Apple 2FA protects your social login. You can also add a Rallies password and enable Rallies 2FA for additional security.
+
+---
+
+## Frequently Asked Questions
+
+### Is 2FA required?
+
+No, but we strongly recommend it. Financial research platforms are valuable targets, and 2FA significantly reduces the risk of unauthorized access.
+
+### What if I get a new phone?
+
+**If you use an authenticator app:**
+- Some apps (like Authy) sync across devices automatically
+- For others, you'll need to set up 2FA again using backup codes
+- Transfer your authenticator before wiping your old phone if possible
+
+**If you use SMS:**
+- If you keep the same phone number, it will work on your new phone
+- If you get a new number, update it in Settings before losing access to the old one
+
+### Does 2FA work on mobile and web?
+
+Yes. Once enabled, 2FA is required on all platforms—web, iOS, and Android.
+
+### Can I use multiple 2FA methods?
+
+Currently, you can only have one method active at a time. You can switch methods in Settings → Security.
+
+### What happens if I enter the wrong code too many times?
+
+After several failed attempts, you may be temporarily locked out for security. Wait a few minutes and try again with a backup code if needed.
+
+---
+
+## Related Articles
+
+- [Changing Your Password](/account/change-password)
+- [Resetting a Forgotten Password](/account/reset-password)
+- [I Can't Log In to My Account](/troubleshooting/cant-log-in)
+- [Account Security Best Practices](/account/security-best-practices)
+
+---
+
+---

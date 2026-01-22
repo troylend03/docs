@@ -1,68 +1,128 @@
 {
   "$schema": "https://mintlify.com/docs.json",
   "theme": "mint",
-  "name": "Mint Starter Kit",
+  "name": "Rallies Support Center",
   "colors": {
-    "primary": "#16A34A",
-    "light": "#07C983",
-    "dark": "#15803D"
+    "primary": "#6366F1",
+    "light": "#818CF8",
+    "dark": "#4F46E5"
   },
   "favicon": "/favicon.svg",
   "navigation": {
     "tabs": [
       {
-        "tab": "Guides",
+        "tab": "Support Center",
         "groups": [
           {
-            "group": "Getting started",
+            "group": "Getting Started",
             "pages": [
               "index",
-              "quickstart",
-              "development"
+              "getting-started/what-is-rallies",
+              "getting-started/create-account",
+              "getting-started/verify-email",
+              "getting-started/quick-start"
             ]
           },
           {
-            "group": "Customization",
+            "group": "Account",
             "pages": [
-              "essentials/settings",
-              "essentials/navigation"
+              "account/change-email",
+              "account/change-password",
+              "account/reset-password",
+              "account/two-factor-authentication",
+              "account/notifications",
+              "account/delete-account"
             ]
           },
           {
-            "group": "Writing content",
+            "group": "Billing & Subscription",
             "pages": [
-              "essentials/markdown",
-              "essentials/code",
-              "essentials/images",
-              "essentials/reusable-snippets"
+              "billing/plans",
+              "billing/free-vs-premium",
+              "billing/upgrade",
+              "billing/cancel",
+              "billing/what-happens-after-cancel",
+              "billing/update-payment",
+              "billing/refund-policy"
             ]
           },
           {
-            "group": "AI tools",
+            "group": "AI Assistant",
             "pages": [
-              "ai-tools/cursor",
-              "ai-tools/claude-code",
-              "ai-tools/windsurf"
-            ]
-          }
-        ]
-      },
-      {
-        "tab": "API reference",
-        "groups": [
-          {
-            "group": "API documentation",
-            "pages": [
-              "api-reference/introduction"
+              "ai-assistant/how-it-works",
+              "ai-assistant/what-to-ask",
+              "ai-assistant/prompt-tips",
+              "ai-assistant/limitations",
+              "ai-assistant/no-recommendations",
+              "ai-assistant/stock-analysis",
+              "ai-assistant/deep-research"
             ]
           },
           {
-            "group": "Endpoint examples",
+            "group": "Research Tools",
             "pages": [
-              "api-reference/endpoint/get",
-              "api-reference/endpoint/create",
-              "api-reference/endpoint/delete",
-              "api-reference/endpoint/webhook"
+              "research/stock-pages",
+              "research/screener"
+            ]
+          },
+          {
+            "group": "Watchlists",
+            "pages": [
+              "watchlists/create-watchlist",
+              "watchlists/add-remove-stocks",
+              "watchlists/price-alerts"
+            ]
+          },
+          {
+            "group": "Portfolio",
+            "pages": [
+              "portfolio/setup",
+              "portfolio/add-manually",
+              "portfolio/connect-brokerage",
+              "portfolio/performance"
+            ]
+          },
+          {
+            "group": "Data & Sources",
+            "pages": [
+              "data/data-sources"
+            ]
+          },
+          {
+            "group": "Mobile App",
+            "pages": [
+              "mobile/download"
+            ]
+          },
+          {
+            "group": "AI Arena",
+            "pages": [
+              "ai-arena/overview"
+            ]
+          },
+          {
+            "group": "Troubleshooting",
+            "pages": [
+              "troubleshooting/cant-log-in",
+              "troubleshooting/not-receiving-emails",
+              "troubleshooting/page-wont-load",
+              "troubleshooting/data-not-updating",
+              "troubleshooting/ai-not-responding",
+              "troubleshooting/payment-failed",
+              "troubleshooting/charged-incorrectly"
+            ]
+          },
+          {
+            "group": "Legal",
+            "pages": [
+              "legal/disclaimer",
+              "legal/privacy-summary"
+            ]
+          },
+          {
+            "group": "Support",
+            "pages": [
+              "support/contact"
             ]
           }
         ]
@@ -71,14 +131,9 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Documentation",
-          "href": "https://mintlify.com/docs",
-          "icon": "book-open-cover"
-        },
-        {
-          "anchor": "Blog",
-          "href": "https://mintlify.com/blog",
-          "icon": "newspaper"
+          "anchor": "Rallies.ai",
+          "href": "https://rallies.ai",
+          "icon": "chart-line"
         }
       ]
     }
@@ -90,33 +145,20 @@
   "navbar": {
     "links": [
       {
-        "label": "Support",
-        "href": "mailto:hi@mintlify.com"
+        "label": "Contact Support",
+        "href": "/support/contact"
       }
     ],
     "primary": {
       "type": "button",
-      "label": "Dashboard",
-      "href": "https://dashboard.mintlify.com"
+      "label": "Go to Rallies",
+      "href": "https://rallies.ai"
     }
-  },
-  "contextual": {
-    "options": [
-     "copy",
-     "view",
-     "chatgpt",
-     "claude",
-     "perplexity",
-     "mcp",
-     "cursor",
-     "vscode"
-   ]
   },
   "footer": {
     "socials": {
-      "x": "https://x.com/mintlify",
-      "github": "https://github.com/mintlify",
-      "linkedin": "https://linkedin.com/company/mintlify"
+      "x": "https://x.com/ralliesai",
+      "github": "https://github.com/ralliesai"
     }
   }
 }

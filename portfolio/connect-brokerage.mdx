@@ -1,0 +1,288 @@
+---
+title: "Connecting Your Brokerage Account"
+description: "Connect your brokerage account to Rallies.ai for automatic portfolio tracking. Step-by-step guide for linking Fidelity, Schwab, Robinhood, and more."
+---
+
+# Connecting Your Brokerage Account
+
+Connect your brokerage to Rallies for automatic portfolio syncing. Your holdings update automatically, so you always have an accurate view of your investments without manual entry.
+
+## How Brokerage Connection Works
+
+We use **Plaid**, the same secure service used by Venmo, Robinhood, and thousands of banking apps. Here's the process:
+
+1. **You select your brokerage** — Search for your broker in our list
+2. **You log in through Plaid** — A secure window connects directly to your broker
+3. **Plaid verifies your identity** — Using your broker's normal login and any 2FA
+4. **Rallies receives read-only access** — We can see your positions, not your credentials
+5. **Your portfolio syncs** — Holdings appear in Rallies automatically
+
+### What We Can See
+
+✓ Your holdings and positions
+✓ Number of shares owned
+✓ Cost basis (if your broker provides it)
+✓ Account types (brokerage, IRA, etc.)
+
+### What We Cannot See
+
+✗ Your login credentials (username/password)
+✗ Your account numbers
+✗ Your Social Security number
+✗ Ability to make trades or transfers
+
+> 🔒 **Rallies has read-only access. We can never make trades, withdraw money, or modify your accounts in any way.**
+
+## Connect on Web
+
+1. Sign in to [rallies.ai](https://rallies.ai)
+
+2. Click **"Portfolio"** in the left sidebar
+
+3. Click **"Connect Brokerage"** or **"+ Add Account"**
+
+4. **Search for your brokerage**
+   - Type the name (e.g., "Fidelity" or "Robinhood")
+   - Select from the dropdown results
+
+5. **A Plaid window will open**
+   - This is a secure connection directly to your broker
+   - Enter your brokerage username and password
+   - Complete any two-factor authentication your broker requires
+
+6. **Select accounts to link**
+   - Choose which accounts to sync (individual, IRA, joint, etc.)
+   - You can select all or just specific ones
+
+7. Click **"Connect"** or **"Continue"**
+
+8. **Wait for sync to complete**
+   - Your holdings typically appear within seconds
+   - Large portfolios may take up to a minute
+
+9. Done! Your portfolio is now synced.
+
+## Connect on Mobile
+
+### iOS
+
+1. Open the Rallies app
+2. Tap **"Portfolio"** in the navigation
+3. Tap **"Connect Account"** or **"+"**
+4. Search for your brokerage
+5. Log in through the Plaid screen (Face ID may work if your broker supports it)
+6. Select accounts and confirm
+7. Your portfolio syncs automatically
+
+### Android
+
+1. Open the Rallies app
+2. Tap **"Portfolio"**
+3. Tap **"Connect Brokerage"**
+4. Search and select your broker
+5. Complete login through Plaid
+6. Select accounts to link
+7. Confirm and wait for sync
+
+## Supported Brokerages
+
+We support most major US brokerages:
+
+**Full-Service & Discount Brokers**
+- Fidelity
+- Charles Schwab
+- TD Ameritrade
+- E*TRADE
+- Merrill Edge
+- Vanguard
+
+**Digital Brokers**
+- Robinhood
+- Webull
+- SoFi Invest
+- Public
+- Stash
+
+**Active Trader Platforms**
+- Interactive Brokers
+- tastytrade
+- TradeStation
+
+**And many more...**
+
+> 💡 **Don't see your broker?** Search for it anyway—we support hundreds of institutions. If it's truly not available, you can [add holdings manually](/portfolio/add-manually).
+
+## Connecting Multiple Brokerages
+
+You can connect multiple brokerages to see all your investments in one place:
+
+1. After connecting your first brokerage, go to Portfolio
+2. Click **"+ Add Account"** or **"Connect Another"**
+3. Follow the same process for your second broker
+4. Repeat for any additional accounts
+
+All holdings from all connected brokerages will appear in your unified portfolio view.
+
+## What You'll See After Connecting
+
+Once connected, your Portfolio shows:
+
+**Overview**
+- Total portfolio value across all accounts
+- Today's gain/loss
+- Overall gain/loss (if cost basis is available)
+
+**Holdings**
+- Every position from every connected account
+- Current market value
+- Individual gain/loss per position
+- Percentage of portfolio
+
+**Allocation**
+- Breakdown by sector
+- Breakdown by account
+- Concentration analysis
+
+**AI Insights (Pro)**
+- Risk analysis
+- Diversification feedback
+- Earnings exposure
+- Natural language questions about your portfolio
+
+## Syncing and Updates
+
+### How Often Does It Sync?
+
+Your portfolio syncs automatically multiple times per day. For most users, this provides an up-to-date view.
+
+### Manual Refresh
+
+To force an immediate sync:
+
+1. Go to Portfolio
+2. Click the **refresh icon** or **"Sync Now"**
+3. Wait a few seconds for update
+
+### Sync Delays
+
+In some cases, there may be delays:
+- New trades may take hours to appear
+- Some brokers batch their data updates
+- Positions in transit (transfers) may be delayed
+
+For the most real-time data, check your actual brokerage app.
+
+## Troubleshooting Connection Issues
+
+### "My brokerage isn't listed"
+
+- Try different name variations (e.g., "Schwab" vs "Charles Schwab")
+- Your broker may use a different name for their investment accounts
+- If truly not supported, use [manual entry](/portfolio/add-manually)
+- [Request we add your broker →](/support/feedback)
+
+### "Connection failed" or "Credentials incorrect"
+
+1. Verify you can log in directly at your broker's website
+2. Check if your broker is having an outage
+3. Make sure you're completing any 2FA prompts
+4. Try again in a few minutes
+5. Some brokers block third-party connections—check your broker's security settings
+
+### "Only some accounts are showing"
+
+1. During connection, make sure you selected all desired accounts
+2. Some account types (certain retirement accounts, 529 plans) may not sync
+3. Try disconnecting and reconnecting, selecting all accounts
+
+### "Holdings are missing or incorrect"
+
+- Syncs can take time—wait 24 hours for full accuracy
+- Some complex securities (options, certain funds) may not sync correctly
+- Recently purchased positions may take time to appear
+- Use manual entry to add any missing positions
+
+### "Connection keeps disconnecting"
+
+- Your broker may require you to re-authorize periodically
+- When prompted, go through the Plaid flow again to reconnect
+- Some brokers have stricter third-party access policies
+
+[More troubleshooting →](/portfolio/troubleshooting)
+
+## Disconnecting a Brokerage
+
+If you want to remove a connected brokerage:
+
+1. Go to **Settings → Portfolio** or **Settings → Connected Accounts**
+2. Find the brokerage you want to remove
+3. Click **"Disconnect"** or **"Remove"**
+4. Confirm
+
+When you disconnect:
+- The connection to your broker is severed
+- Your synced holdings are removed from Rallies
+- No data is retained from that brokerage
+- Your actual brokerage account is unaffected
+
+## Security & Privacy
+
+### Plaid Security
+
+Plaid is used by over 8,000 financial apps and is trusted by major institutions. They use:
+- Bank-level 256-bit encryption
+- SOC 2 Type II certified
+- Regular security audits
+
+### Your Privacy
+
+- We never see your login credentials
+- We can't make trades or move money
+- You can disconnect anytime
+- We don't sell your portfolio data
+- [Read our full privacy policy →](/legal/privacy-policy)
+
+### What Your Broker Sees
+
+Your broker may show Rallies (or Plaid) in their list of connected apps. This is normal—it means the connection is working.
+
+---
+
+## Frequently Asked Questions
+
+### Is it safe to connect my brokerage?
+
+Yes. We use Plaid, trusted by millions of users and thousands of apps. Rallies receives read-only access—we can see your holdings but can never make trades, withdraw money, or access your credentials.
+
+### Will connecting affect my brokerage account?
+
+No. Your brokerage account remains exactly the same. We only read data; we never make changes.
+
+### Can Rallies trade for me?
+
+No. Rallies is a research and tracking platform. We have no ability to execute trades, even with a connected brokerage.
+
+### What if my broker requires extra security (like a token or callback)?
+
+Plaid handles most security methods. Complete any prompts during the connection process. If your broker has a unique security setup that isn't working, try connecting from their list of approved third-party apps (if available) or use manual entry.
+
+### Can I connect international brokerages?
+
+Currently, we primarily support US brokerages. Some international brokers may work, but coverage varies. Try connecting to see if yours is supported.
+
+### How do I know my connection is working?
+
+If your holdings appear and update in Rallies, the connection is working. You can also check Settings → Connected Accounts to see connection status.
+
+---
+
+## Related Articles
+
+- [Setting Up Your Portfolio](/portfolio/setup)
+- [Troubleshooting Brokerage Connection](/portfolio/connection-issues)
+- [Adding Holdings Manually](/portfolio/add-manually)
+- [Portfolio Data Security](/portfolio/security)
+
+---
+
+---
