@@ -30,7 +30,11 @@
               "account/change-password",
               "account/reset-password",
               "account/two-factor-authentication",
+              "account/link-social",
+              "account/security-best-practices",
               "account/notifications",
+              "account/email-preferences",
+              "account/download-data",
               "account/delete-account"
             ]
           },
@@ -40,9 +44,21 @@
               "billing/plans",
               "billing/free-vs-premium",
               "billing/upgrade",
+              "billing/trial",
+              "billing/promo-codes",
               "billing/cancel",
+              "billing/downgrade",
+              "billing/pause",
               "billing/what-happens-after-cancel",
+              "billing/restart-subscription",
+              "billing/billing-cycles",
+              "billing/change-cycle",
               "billing/update-payment",
+              "billing/payment-methods",
+              "billing/invoices",
+              "billing/download-receipts",
+              "billing/failed-payment",
+              "billing/request-refund",
               "billing/refund-policy"
             ]
           },
@@ -55,14 +71,22 @@
               "ai-assistant/limitations",
               "ai-assistant/no-recommendations",
               "ai-assistant/stock-analysis",
-              "ai-assistant/deep-research"
+              "ai-assistant/deep-research",
+              "ai-assistant/rate-limits",
+              "ai-assistant/premium-features",
+              "ai-assistant/report-issues"
             ]
           },
           {
             "group": "Research Tools",
             "pages": [
               "research/stock-pages",
-              "research/screener"
+              "research/financial-statements",
+              "research/charts",
+              "research/analyst-ratings",
+              "research/screener",
+              "research/advanced-filters",
+              "research/saved-screens"
             ]
           },
           {
@@ -70,7 +94,11 @@
             "pages": [
               "watchlists/create-watchlist",
               "watchlists/add-remove-stocks",
-              "watchlists/price-alerts"
+              "watchlists/organize",
+              "watchlists/tips",
+              "watchlists/price-alerts",
+              "watchlists/alert-types",
+              "watchlists/why-no-alert"
             ]
           },
           {
@@ -78,26 +106,40 @@
             "pages": [
               "portfolio/setup",
               "portfolio/add-manually",
+              "portfolio/edit-holdings",
               "portfolio/connect-brokerage",
-              "portfolio/performance"
+              "portfolio/supported-brokerages",
+              "portfolio/connection-issues",
+              "portfolio/performance",
+              "portfolio/allocation",
+              "portfolio/security",
+              "portfolio/troubleshooting"
             ]
           },
           {
             "group": "Data & Sources",
             "pages": [
-              "data/data-sources"
+              "data/data-sources",
+              "data/coverage",
+              "data/update-frequency"
             ]
           },
           {
             "group": "Mobile App",
             "pages": [
-              "mobile/download"
+              "mobile/download",
+              "mobile/setup",
+              "mobile/features",
+              "mobile/troubleshooting"
             ]
           },
           {
             "group": "AI Arena",
             "pages": [
-              "ai-arena/overview"
+              "ai-arena/overview",
+              "ai-arena/following-models",
+              "ai-arena/performance",
+              "ai-arena/notifications"
             ]
           },
           {
@@ -106,23 +148,35 @@
               "troubleshooting/cant-log-in",
               "troubleshooting/not-receiving-emails",
               "troubleshooting/page-wont-load",
+              "troubleshooting/browser-compatibility",
+              "troubleshooting/clear-cache",
               "troubleshooting/data-not-updating",
               "troubleshooting/ai-not-responding",
+              "troubleshooting/push-not-working",
               "troubleshooting/payment-failed",
-              "troubleshooting/charged-incorrectly"
+              "troubleshooting/charged-incorrectly",
+              "troubleshooting/status"
             ]
           },
           {
             "group": "Legal",
             "pages": [
               "legal/disclaimer",
-              "legal/privacy-summary"
+              "legal/privacy-summary",
+              "legal/privacy-policy",
+              "legal/terms-summary",
+              "legal/terms-of-service",
+              "legal/data-handling"
             ]
           },
           {
             "group": "Support",
             "pages": [
-              "support/contact"
+              "support/contact",
+              "support/what-to-include",
+              "support/response-times",
+              "support/escalate",
+              "support/feedback"
             ]
           }
         ]
@@ -139,8 +193,8 @@
     }
   },
   "logo": {
-    "light": "/logo/light.svg",
-    "dark": "/logo/dark.svg"
+    "light": "/logo/light.png",
+    "dark": "/logo/dark.png"
   },
   "navbar": {
     "links": [

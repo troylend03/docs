@@ -1,0 +1,135 @@
+---
+title: "Troubleshooting Brokerage Connection"
+description: "Fix issues connecting your brokerage account to Rallies for automatic portfolio syncing."
+---
+
+# Troubleshooting Brokerage Connection
+
+Having trouble connecting your brokerage? Here's how to diagnose and fix common connection issues.
+
+## Common Connection Problems
+
+### "Connection Failed"
+
+**Possible causes:**
+- Incorrect login credentials
+- Two-factor authentication blocking the connection
+- Brokerage is experiencing downtime
+- Your brokerage isn't supported
+
+**Solutions:**
+1. **Verify your credentials** - Log into your brokerage directly to confirm
+2. **Check 2FA** - Some brokerages require you to approve the connection in their app
+3. **Try again later** - The brokerage may have temporary issues
+4. **Check supported brokerages** - [View the list →](/portfolio/supported-brokerages)
+
+### Connection Keeps Disconnecting
+
+**Why it happens:**
+- Password changed at brokerage
+- Session expired
+- Brokerage security policy
+- Required re-authentication
+
+**Solutions:**
+1. Go to **Portfolio → Connected Accounts**
+2. Click **"Reconnect"** or **"Refresh"**
+3. Re-enter your credentials
+4. Complete any 2FA prompts
+
+### Data Not Updating
+
+If your connection shows "Connected" but data is stale:
+
+1. **Check last sync time** - View in Portfolio settings
+2. **Force a sync** - Click "Sync Now" if available
+3. **Reconnect** - Disconnect and reconnect the account
+4. **Wait** - Some brokerages sync less frequently
+
+## Brokerage-Specific Issues
+
+### Fidelity
+- Requires Fidelity-specific login (not NetBenefits)
+- May require approving the connection in their app
+
+### Charles Schwab
+- Use your Schwab login, not TD Ameritrade (if applicable)
+- 2FA approval often required
+
+### Robinhood
+- Must use email/password, not biometric login
+- May need to approve in Robinhood app
+
+### Vanguard
+- Use your personal account login
+- Workplace accounts may have restrictions
+
+### E*TRADE
+- Standard login credentials work
+- Check for security alerts in E*TRADE account
+
+## Two-Factor Authentication (2FA)
+
+Many brokerages use 2FA that can complicate connections:
+
+### During Initial Connection
+1. Enter your brokerage credentials in Rallies
+2. Check your phone/email for a 2FA code
+3. Enter the code when prompted
+4. Approve any push notifications from your brokerage
+
+### For Reconnection
+- Same process as initial connection
+- Some brokerages require 2FA every time
+
+## Security Questions
+
+If your brokerage uses security questions:
+1. You may be prompted to answer during connection
+2. Enter answers exactly as you set them up
+3. Some connections remember answers, others ask each time
+
+## What We Can and Can't Access
+
+### We CAN See:
+- Account holdings (stocks, ETFs, mutual funds)
+- Current values
+- Cost basis (if provided by brokerage)
+- Recent transactions
+
+### We CANNOT:
+- Make trades on your behalf
+- Transfer money
+- Change your brokerage settings
+- Access other financial accounts you don't connect
+
+## Connection Security
+
+Your brokerage credentials are:
+- **Never stored** by Rallies
+- **Encrypted** during transmission
+- **Handled by Plaid** - Industry-standard secure aggregator
+- **Read-only access** - We can only view, not trade
+
+[Learn more about security →](/portfolio/security)
+
+## If Nothing Works
+
+If you've tried everything:
+
+1. **Confirm your brokerage is supported** - [See list](/portfolio/supported-brokerages)
+2. **Try connecting from desktop** - Mobile connections can be problematic
+3. **Clear cache and try again** - Fresh session may help
+4. **Contact support** with:
+   - Your brokerage name
+   - Error message (screenshot if possible)
+   - Steps you've tried
+
+---
+
+## Related Articles
+
+- [Connecting Your Brokerage Account](/portfolio/connect-brokerage)
+- [Supported Brokerages](/portfolio/supported-brokerages)
+- [Portfolio Data Security](/portfolio/security)
+- [Adding Holdings Manually](/portfolio/add-manually)

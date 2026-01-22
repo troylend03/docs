@@ -1,0 +1,177 @@
+---
+title: "Data Freshness & Update Frequency"
+description: "Learn how often different types of data are updated in Rallies, from real-time prices to quarterly filings, and what affects data timeliness."
+---
+
+
+# Data Freshness & Update Frequency
+
+Different types of financial data update at different frequencies. Understanding these update cycles helps you interpret data correctly and know when to expect new information.
+
+## Quick Reference
+
+| Data Type | Update Frequency | Notes |
+|-----------|------------------|-------|
+| Stock prices (Pro) | Real-time | During market hours |
+| Stock prices (Free) | 15-minute delay | During market hours |
+| Trading volume | Real-time | During market hours |
+| Financial statements | Quarterly | After SEC filing |
+| Analyst ratings | As published | Varies by analyst |
+| Earnings estimates | Ongoing | Updated as analysts revise |
+| Insider transactions | 1-2 days | After SEC Form 4 filing |
+| Institutional ownership | Quarterly | 45-day filing delay |
+| Dividends | As announced | When declared by company |
+| News | Continuous | As stories are published |
+| Company information | Periodic | When changes occur |
+
+## Price Data Updates
+
+### Real-Time Prices (Pro Users)
+
+Pro subscribers receive continuous price updates during regular trading hours (9:30 AM - 4:00 PM ET, Monday-Friday excluding holidays). This includes last trade price, bid/ask prices, trading volume, and day's high/low.
+
+Pre-market and after-hours data has limited visibility and may be delayed.
+
+### Delayed Prices (Free Users)
+
+Free users see prices with a 15-minute delay during market hours. Once the market closes, the final closing price is available without delay.
+
+### Historical Prices
+
+Available immediately for completed trading days, adjusted for splits and dividends. Generally available by evening of trade date.
+
+## Financial Statement Updates
+
+### Filing Timelines
+
+**Quarterly reports (10-Q):** Filed 40-45 days after quarter end, depending on company size.
+
+**Annual reports (10-K):** Filed 60-90 days after fiscal year end, depending on company size.
+
+**Rallies update timing:** Data available within 24-48 hours of SEC filing.
+
+### Important Distinction
+
+| Event | When | What You Get |
+|-------|------|--------------|
+| Earnings announcement | Press release | Headlines, key numbers |
+| Earnings call | Same day | Context, guidance |
+| SEC filing (10-Q/10-K) | Days to weeks later | Full financial statements |
+
+Rallies financial statement data comes from SEC filings, not earnings announcements. Expect a gap between when earnings are announced and when detailed financials appear.
+
+## Analyst Data Updates
+
+**Ratings and price targets:** Update as analysts publish. Major companies see multiple updates per week; small caps may see rare updates.
+
+**Consensus estimates:** Rolling updates as individual analysts revise. EPS and revenue estimates recalculated automatically.
+
+**Lag in our system:** Usually same-day for major data providers; may take 1-2 days for all sources to sync.
+
+## Insider Transaction Updates
+
+Insiders must file SEC Form 4 within 2 business days of a transaction. Rallies displays this data within 24 hours of filing.
+
+**Example timeline:**
+| Day | Event |
+|-----|-------|
+| Monday | CEO sells 10,000 shares |
+| Wednesday | Form 4 filed with SEC |
+| Thursday | Transaction appears in Rallies |
+
+You're always seeing transactions after the fact — no way to know about them until filed.
+
+## Institutional Ownership Updates
+
+13F filings are due 45 days after quarter end:
+
+| Quarter End | Filing Deadline | Data Available |
+|-------------|-----------------|----------------|
+| March 31 | May 15 | Mid-May |
+| June 30 | August 14 | Mid-August |
+| September 30 | November 14 | Mid-November |
+| December 31 | February 14 | Mid-February |
+
+This data is always retrospective. When you see Q4 data in February, it shows holdings as of December 31 — positions may have changed significantly since then.
+
+## Dividend & News Updates
+
+**Dividends:** Information appears within 24 hours of company announcement. Dividend yield updates continuously as stock prices change.
+
+**News:** Updates continuously as stories are published. SEC filings appear within minutes; press releases within minutes to hours. We don't track social media or message boards.
+
+## Why Data Might Seem Stale
+
+### Normal Delays
+
+| Situation | Expected? |
+|-----------|-----------|
+| Financials don't match earnings announcement | Yes — wait for SEC filing |
+| Institutional holdings seem old | Yes — quarterly with 45-day lag |
+| No recent analyst updates for small cap | Yes — limited coverage |
+| Price unchanged outside market hours | Yes — market is closed |
+
+### Potential Issues
+
+| Situation | Action |
+|-----------|--------|
+| Price stuck during market hours | Refresh, check connectivity |
+| Filing is weeks old but data not updated | Report to support |
+| Obvious data error | Report to support |
+
+See [Data Isn't Loading or Updating](/troubleshooting/data-not-updating) for troubleshooting steps.
+
+## Free vs. Pro Differences
+
+| Data Type | Free | Pro |
+|-----------|------|-----|
+| Price quotes | 15-minute delay | Real-time |
+| All other data | Same | Same |
+
+The primary difference is price quote speed. Fundamental data updates identically for both tiers.
+
+## Setting Expectations
+
+**What you can rely on:**
+- Real-time prices (Pro) during market hours
+- Financial data within 48 hours of SEC filing
+- Insider transactions within 24 hours of Form 4 filing
+- Dividend announcements within 24 hours
+
+**What takes time:**
+- Institutional holdings — always 45+ days old
+- Small cap analyst coverage — unpredictable timing
+- International data — may lag US data
+
+---
+
+## Frequently Asked Questions
+
+### Why is my price 15 minutes old?
+
+You're likely on the Free plan, which includes a 15-minute price delay. Upgrade to Pro for real-time prices.
+
+### When will quarterly financials be updated?
+
+Financials update after the company files with the SEC, not when they announce earnings. This can be days to weeks after the earnings call.
+
+### Why does institutional ownership seem outdated?
+
+13F filings are due 45 days after quarter end, so institutional data is always at least 6-7 weeks old. This is an SEC filing requirement, not a Rallies limitation.
+
+### How quickly do analyst rating changes appear?
+
+Usually same-day, but can take up to 1-2 days depending on the data source.
+
+### Do prices update after hours?
+
+Limited pre-market and after-hours data is available, depending on your plan and the stock's extended-hours volume.
+
+---
+
+## Related Articles
+
+- [About Our Data Sources](/data/data-sources)
+- [Data Coverage & Limitations](/data/coverage)
+- [Free vs. Premium Features](/billing/free-vs-premium)
+- [Data Isn't Loading or Updating](/troubleshooting/data-not-updating)

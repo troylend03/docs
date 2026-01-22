@@ -1,0 +1,293 @@
+---
+title: "Why Didn't I Get My Alert?"
+description: "Troubleshoot missed price alerts in Rallies.ai. Learn why alerts might not trigger or deliver, and how to fix notification issues to never miss a price target again."
+---
+
+
+# Why Didn't I Get My Alert?
+
+You set a price alert, the stock hit your target, but you never got notified. Frustrating. Let's figure out what happened and make sure it doesn't happen again.
+
+## Quick Diagnosis Checklist
+
+Before diving deep, check these common issues:
+
+- [ ] Did the price hit your target during **regular market hours**?
+- [ ] Are your **notification settings** enabled for price alerts?
+- [ ] Check your **spam/junk folder** for email alerts
+- [ ] Is the Rallies app allowed to send **push notifications** on your phone?
+- [ ] Did the alert **already trigger** previously?
+
+If you checked all these and still can't find the issue, keep reading.
+
+## Reason 1: Price Hit Outside Market Hours
+
+**The most common reason alerts don't trigger.**
+
+### How It Works
+
+Alerts only monitor during regular market hours:
+- **9:30 AM - 4:00 PM Eastern Time**
+- **Monday through Friday**
+- **Excluding market holidays**
+
+Pre-market (4:00 AM - 9:30 AM ET) and after-hours (4:00 PM - 8:00 PM ET) trading does not trigger alerts.
+
+### Example
+
+You set an alert for AAPL at $200. After the market closes at 4:00 PM ET, Apple announces news and the stock moves in after-hours trading:
+
+| Time | Price | Alert Status |
+|------|-------|--------------|
+| 4:01 PM | $198 | No monitoring |
+| 5:30 PM | $203 | No monitoring |
+| 6:00 PM | $205 | No monitoring |
+| 9:30 AM (next day) | $202 | Alert triggers at open |
+
+If the stock touched $200 only during after-hours and opened above it, your alert would trigger at the open price, not at exactly $200.
+
+### What to Do
+
+- **Understand the limitation:** Alerts are designed for regular trading hours
+- **Check after-hours activity:** If you suspect after-hours movement, check the extended hours chart
+- **Adjust your target:** If catching after-hours moves matters, set a tighter target that might trigger during regular hours first
+
+## Reason 2: Notification Settings Are Off
+
+Your alert triggered, but you weren't notified because notifications are disabled.
+
+### Check Your Settings
+
+1. Go to **Settings** in Rallies
+2. Navigate to **Notifications**
+3. Find **Price Alerts** section
+4. Make sure at least one notification method is enabled:
+   - Email
+   - Push
+   - In-App
+
+### What You Might Find
+
+| Setting | Status | Result |
+|---------|--------|--------|
+| Email alerts | Off | No email notifications |
+| Push alerts | Off | No phone notifications |
+| All alerts | Off | No notifications at all |
+
+**Fix:** Toggle on the notification types you want.
+
+### Verify Your Alert Triggered
+
+Even without notifications, you can check if an alert triggered:
+
+1. Go to **Alerts** in the app
+2. Look for your alert in the **"Triggered"** or **"History"** section
+3. If it's there, the alert worked—you just weren't notified
+
+## Reason 3: Push Notifications Are Blocked
+
+Your phone might be blocking Rallies from sending push notifications.
+
+### Check iOS Settings
+
+1. Open your iPhone **Settings**
+2. Scroll down and tap **Rallies**
+3. Tap **Notifications**
+4. Make sure **Allow Notifications** is ON
+5. Enable **Lock Screen**, **Notification Center**, and **Banners**
+
+### Check Android Settings
+
+1. Open **Settings**
+2. Go to **Apps** or **Applications**
+3. Find **Rallies**
+4. Tap **Notifications**
+5. Make sure notifications are **Enabled**
+6. Check that the app isn't in "Do Not Disturb" exceptions
+
+### Other Phone Settings That Block Notifications
+
+- **Focus Mode / Do Not Disturb:** Rallies might be silenced
+- **Battery Saver:** May prevent background notifications
+- **Data Saver:** May block push notifications on mobile data
+- **App hibernation:** Unused apps might be put to sleep
+
+### Test Push Notifications
+
+To verify push notifications work:
+
+1. Go to Settings > Notifications in Rallies
+2. Look for a **"Send Test Notification"** option
+3. Tap it and see if you receive a notification
+
+If the test fails, there's a device or permission issue to fix.
+
+## Reason 4: Email Went to Spam
+
+Email alerts might be delivered but filtered into spam or promotional folders.
+
+### Check These Folders
+
+**Gmail users:**
+- Spam
+- Promotions tab
+- Updates tab
+- Search: `from:rallies.ai`
+
+**Outlook users:**
+- Junk Email
+- "Other" inbox (if using Focused Inbox)
+
+**Yahoo users:**
+- Spam
+- Bulk Mail
+
+### Whitelist Rallies Emails
+
+Add these addresses to your contacts to prevent filtering:
+
+- alerts@rallies.ai
+- hello@rallies.ai
+- noreply@rallies.ai
+
+[Full email troubleshooting guide](/troubleshooting/not-receiving-emails)
+
+## Reason 5: The Alert Already Triggered
+
+Alerts are **one-time only**. After triggering once, they become inactive.
+
+### How to Check
+
+1. Go to **Alerts** in Rallies
+2. Look at alert status:
+   - **Active:** Waiting to trigger
+   - **Triggered:** Already fired, now inactive
+   - **Paused:** Manually disabled
+
+### What Happened
+
+If you set an alert at $100 and the stock hit $100 last week, the alert triggered then. When the stock hits $100 again, there's no active alert anymore.
+
+### The Fix
+
+To monitor the same level again:
+1. Delete the old triggered alert (optional)
+2. Create a new alert at the same price
+3. The new alert will watch for the next time the price is reached
+
+### Pro Tip: Set Multiple Alerts
+
+If you want ongoing monitoring at certain levels, set multiple alerts at different prices. When one triggers, you can recreate it while others remain active.
+
+## Reason 6: Price Touched Briefly
+
+Sometimes a stock briefly touches a price and reverses quickly.
+
+### How Alerts Handle This
+
+- Alerts check price throughout the trading day
+- Most brief touches should trigger alerts
+- Extremely fast spikes (lasting milliseconds) might occasionally be missed
+
+### What You Can Do
+
+- **Check the intraday chart:** Use 1-minute candles to see if the price actually reached your target during market hours
+- **Set alerts with a small buffer:** If your target is $100, set at $99.50 to catch near-misses
+- **Verify the high/low of the day:** Compare against your alert price
+
+### Understanding Price Data
+
+Your alert uses the stock's trading price. Sometimes what you see on a chart might differ slightly from when data was recorded. Check multiple sources if you're confident the price was reached.
+
+## Reason 7: Alert Was Paused or Deleted
+
+You might have accidentally paused or deleted the alert.
+
+### Check Your Alert List
+
+1. Go to **Alerts**
+2. Look for your alert
+3. Check if it's toggled off (paused)
+4. Check if it exists at all
+
+### What Might Have Happened
+
+- You paused the alert and forgot to re-enable it
+- You deleted it thinking you didn't need it anymore
+- You hit your alert limit and couldn't create it
+
+### The Fix
+
+If the alert is paused, toggle it back on. If it's missing, recreate it.
+
+## Reason 8: Alert Limit Reached
+
+Free users are limited to 5 active alerts.
+
+### What Happens
+
+- If you have 5 alerts and try to create a 6th, you'll get an error
+- You might have thought you created an alert, but it wasn't saved
+
+### Check Your Alert Count
+
+1. Go to **Alerts**
+2. Count your active alerts
+3. If you have 5 (on Free), you're at the limit
+
+### Solutions
+
+| Option | Action |
+|--------|--------|
+| Free up space | Delete alerts you no longer need |
+| Prioritize | Keep only your most important alerts |
+| Upgrade | [Get Pro](/billing/upgrade) for unlimited alerts |
+
+## Still Need Help?
+
+If you've tried everything and alerts still aren't working, [contact support](/support/contact) with:
+
+- The stock symbol and alert price
+- Date and time you expected the alert to trigger
+- Your notification settings (screenshot helps)
+- Whether you can see the alert in your "Triggered" history
+- Your email provider and phone type
+
+We can check our logs to see if the alert triggered on our end and whether notifications were sent.
+
+---
+
+## Frequently Asked Questions
+
+### Do alerts work on weekends?
+
+No. Alerts only monitor during regular market hours (Monday-Friday, 9:30 AM - 4:00 PM ET). Weekend price changes (rare, but can happen) aren't tracked.
+
+### Can after-hours trading trigger my alert?
+
+No. Pre-market and after-hours trading do not trigger alerts. Only regular market hours are monitored.
+
+### How quickly should alerts notify me?
+
+Push notifications arrive within seconds. Email may take 1-2 minutes. If you're waiting more than 5 minutes during market hours, something may be wrong.
+
+### Why did I get an alert but the stock never hit my price?
+
+This is rare. It could be a brief spike that reversed before you checked, or a data discrepancy. Check the intraday chart with 1-minute candles to verify.
+
+### Can I set alerts to trigger multiple times?
+
+Alerts are one-time by default. After triggering, you need to create a new alert to monitor the same level again.
+
+### What happens if I'm offline when my alert triggers?
+
+Push notifications wait for your device to connect. Email is sent regardless. When you come back online, you should receive any pending notifications.
+
+---
+
+## Related Articles
+
+- [Setting Up Price Alerts](/watchlists/price-alerts)
+- [Types of Price Alerts](/watchlists/alert-types)
+- [Managing Notification Preferences](/account/notifications)
+- [I'm Not Receiving Emails from Rallies](/troubleshooting/not-receiving-emails)

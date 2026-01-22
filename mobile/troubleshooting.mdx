@@ -1,0 +1,249 @@
+---
+title: "Mobile App Troubleshooting"
+description: "Fix common issues with the Rallies.ai mobile app on iOS and Android. Solutions for crashes, sync problems, notification failures, and performance issues."
+---
+
+
+# Mobile App Troubleshooting
+
+Having trouble with the Rallies mobile app? This guide covers the most common issues and how to resolve them.
+
+## Quick Fixes to Try First
+
+Before diving into specific issues:
+
+1. **Force close and reopen the app** - Swipe the app away and launch fresh
+2. **Check your internet connection** - Try loading a website to confirm connectivity
+3. **Update the app** - Make sure you're running the latest version
+4. **Restart your phone** - Solves more problems than you'd expect
+5. **Check Rallies status** - Visit [status.rallies.ai](https://status.rallies.ai) for outages
+
+## App Crashes or Won't Open
+
+### App crashes immediately
+
+**iOS:**
+1. Force close: Swipe up from the bottom, swipe Rallies away
+2. Restart your iPhone
+3. If it still crashes, delete and reinstall the app
+4. Make sure iOS is updated to at least version 15.0
+
+**Android:**
+1. Force stop: Settings > Apps > Rallies > Force Stop
+2. Clear cache: Settings > Apps > Rallies > Storage > Clear Cache
+3. Restart your phone
+4. If it persists, clear app data (you'll need to sign in again)
+5. Reinstall if nothing else works
+
+### App freezes on a specific screen
+
+1. Wait 30 seconds - it might be loading data
+2. Force close and reopen
+3. If it happens repeatedly on the same screen, clear app cache
+4. Report the issue to support with the screen name
+
+## Login and Authentication Issues
+
+### Can't sign in with email/password
+
+1. Verify your credentials work on the web version first
+2. Check for typos - passwords are case-sensitive
+3. Try "Forgot Password" to reset
+4. Make sure you're using the right sign-in method (email vs. Google/Apple)
+
+### Google or Apple sign-in not working
+
+**Apple sign-in (iOS):**
+- Make sure you're signed into your Apple ID in device settings
+- Try signing out and back into your Apple ID
+
+**Google sign-in:**
+- Ensure you're signed into Google on your device
+- Check that pop-ups aren't being blocked
+
+### Biometric login stopped working
+
+1. Ensure biometrics are set up in your phone's settings
+2. In Rallies: Settings > Security > disable and re-enable biometric login
+3. If Face ID fails repeatedly, re-enroll your face in iPhone Settings
+
+[More login troubleshooting](/troubleshooting/cant-log-in)
+
+## Notification Problems
+
+### Not receiving push notifications
+
+**Check app permissions:**
+
+**iOS:**
+1. iPhone Settings > Rallies > Notifications
+2. Make sure Allow Notifications is ON
+3. Enable Lock Screen, Notification Center, and Banners
+
+**Android:**
+1. Settings > Apps > Rallies > Notifications
+2. Make sure notifications are enabled
+3. Check each notification channel
+
+**Check in-app settings:**
+1. Rallies > Profile > Settings > Notifications
+2. Make sure desired notification types are enabled
+
+**Check system settings:**
+- Disable Do Not Disturb (or allow Rallies during DND)
+- On iOS, check Focus modes
+- On Android, check battery saver isn't restricting background activity
+
+### Price alerts not triggering
+
+1. Verify the alert is set correctly (price target and direction)
+2. Make sure notifications are enabled
+3. Check if the stock actually hit your target price
+
+[More notification troubleshooting](/troubleshooting/push-not-working)
+
+## Data Sync Issues
+
+### Watchlists not syncing between devices
+
+1. Pull down on the Watchlists screen to refresh
+2. Make sure you're signed into the same account on all devices
+3. Sign out and sign back in to force a full sync
+
+### Portfolio showing old data
+
+1. Pull down on the Portfolio screen to refresh
+2. For connected brokerages, tap the refresh icon
+3. If positions are wrong, try reconnecting your brokerage
+
+### AI conversations not appearing
+
+1. Pull down on the Chat screen to refresh
+2. Older conversations may be archived - check conversation history
+3. Sign out and back in if conversations are missing
+
+## Performance Issues
+
+### App running slowly
+
+1. Close other apps running in the background
+2. Restart your phone
+3. Clear the app cache
+4. Start fresh AI conversations (long ones slow performance)
+
+### High battery drain
+
+**Reduce battery usage:**
+1. Reduce background refresh frequency in Settings > Data
+2. Remove or reduce widgets
+3. Close the app when not using it
+
+### Charts not loading
+
+1. Check your internet connection
+2. Pull down to refresh the stock page
+3. Try switching between time periods
+4. Clear app cache if charts are persistently broken
+
+## Platform-Specific Issues
+
+### iOS-Specific
+
+**Widgets not updating:**
+- Check that Background App Refresh is enabled
+- Remove and re-add the widget
+- Make sure Low Power Mode isn't active
+
+### Android-Specific
+
+**App killed in background:**
+
+Some Android manufacturers aggressively kill background apps.
+
+1. Settings > Apps > Rallies > Battery
+2. Select "Unrestricted" or "No restrictions"
+3. On Samsung: disable "Put app to sleep"
+4. On Xiaomi: enable "Autostart" for Rallies
+
+**Notifications silent:**
+1. Check notification channel settings individually
+2. Disable battery optimization for Rallies
+
+## Error Messages
+
+### "Network error" or "Connection failed"
+
+1. Check that you have internet access
+2. Switch between WiFi and cellular
+3. Disable VPN if using one
+4. Try again in a few minutes
+
+### "Rate limit exceeded"
+
+- Free accounts have limits on AI queries
+- Wait until your limit resets (weekly for Free)
+- Consider upgrading to Pro for unlimited queries
+
+## Reinstalling the App
+
+If nothing else works, a clean reinstall often solves persistent issues.
+
+**Before reinstalling:**
+- Make sure you know your login credentials
+- Your data is stored on servers, not locally - you won't lose anything
+
+**How to reinstall:**
+
+**iOS:**
+1. Press and hold the Rallies app icon
+2. Tap "Remove App" > "Delete App"
+3. Redownload from the App Store
+4. Sign in
+
+**Android:**
+1. Settings > Apps > Rallies > Uninstall
+2. Redownload from the Play Store
+3. Sign in
+
+**After reinstalling:**
+1. Sign in to your account
+2. Wait for data to sync
+3. Re-enable biometric login and notification settings
+
+## Getting Additional Help
+
+If you've tried everything above:
+
+**Gather this information:**
+- Device model (e.g., iPhone 14 Pro, Samsung Galaxy S23)
+- Operating system version
+- Rallies app version (Settings > About)
+- Screenshots of the issue
+- Steps to reproduce the problem
+
+**Contact support:** [Contact Support](/support/contact)
+
+---
+
+## Frequently Asked Questions
+
+### Will I lose my data if I reinstall the app?
+
+No. All your data is stored on our servers. When you sign back in, everything syncs automatically.
+
+### Why does the Android app behave differently than iOS?
+
+The apps are built for each platform's guidelines. Some differences are expected, but core functionality is identical.
+
+### How do I report a bug?
+
+Go to Profile > Settings > Help > Report a Bug, or [contact support](/support/contact) directly.
+
+---
+
+## Related Articles
+
+- [Downloading the Mobile App](/mobile/download)
+- [Setting Up the Mobile App](/mobile/setup)
+- [Mobile App Features](/mobile/features)
+- [I Can't Log In to My Account](/troubleshooting/cant-log-in)
