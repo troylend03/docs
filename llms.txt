@@ -1,0 +1,143 @@
+# Rallies Support Center
+
+> Documentation for Rallies.ai - an AI-powered stock research platform that helps investors make informed decisions with real-time data, financial analysis, and AI-driven insights.
+
+## Getting Started
+
+- [Welcome to Rallies Support](/): Find answers, troubleshoot issues, and learn how to use Rallies.ai
+- [What is Rallies.ai?](/getting-started/what-is-rallies): Learn what Rallies.ai is, how our AI Research Assistant helps you research stocks
+- [Creating Your Account](/getting-started/create-account): Sign up for Rallies.ai and create your free account
+- [Verifying Your Email](/getting-started/verify-email): Verify your email address to complete account setup
+- [Quick Start Guide](/getting-started/quick-start): Get started with Rallies.ai in minutes
+
+## Account
+
+- [Changing Your Email Address](/account/change-email): Update the email address associated with your Rallies account
+- [Changing Your Password](/account/change-password): Update your Rallies account password
+- [Resetting a Forgotten Password](/account/reset-password): Recover access to your account if you forgot your password
+- [Two-Factor Authentication (2FA)](/account/two-factor-authentication): Add an extra layer of security to your Rallies account
+- [Linking Social Accounts](/account/link-social): Connect Google or Apple for easier login
+- [Account Security Best Practices](/account/security-best-practices): Tips to keep your Rallies account secure
+- [Managing Notifications](/account/notifications): Control which notifications you receive from Rallies
+- [Email Preferences](/account/email-preferences): Manage your email subscription preferences
+- [Downloading Your Data](/account/download-data): Export your Rallies data including watchlists and portfolio
+- [Deleting Your Account](/account/delete-account): Permanently delete your Rallies account and data
+
+## Billing & Subscription
+
+- [Understanding Our Subscription Plans](/billing/plans): Compare Rallies Free and Pro subscription options
+- [Free vs. Premium: Feature Comparison](/billing/free-vs-premium): Detailed comparison of features available on Free and Pro tiers
+- [How to Upgrade Your Plan](/billing/upgrade): Upgrade from Free to Pro for unlimited AI and premium features
+- [Free Trial Information](/billing/trial): Learn about the Rallies Pro free trial
+- [Using Promo Codes](/billing/promo-codes): Apply promotional codes to get discounts on Rallies Pro
+- [How to Cancel Your Subscription](/billing/cancel): Cancel your Rallies Pro subscription
+- [Downgrading Your Plan](/billing/downgrade): Switch from Pro to Free tier
+- [Pausing Your Subscription](/billing/pause): Temporarily pause your Rallies Pro subscription
+- [What Happens When I Cancel?](/billing/what-happens-after-cancel): Understand what changes when your Pro subscription ends
+- [Restarting a Cancelled Subscription](/billing/restart-subscription): Reactivate your Rallies Pro subscription after canceling
+- [Billing Cycles & Renewal Dates](/billing/billing-cycles): Understand how billing cycles work and when you'll be charged
+- [Changing Your Billing Cycle](/billing/change-cycle): Switch between monthly and annual billing
+- [Updating Your Payment Method](/billing/update-payment): Update your credit card or payment method for Rallies Pro
+- [Accepted Payment Methods](/billing/payment-methods): Learn what payment methods Rallies accepts for subscriptions
+- [Understanding Your Invoice](/billing/invoices): Learn how to read your Rallies invoice and billing history
+- [Downloading Receipts & Invoices](/billing/download-receipts): Download receipts and invoices for expense reports or taxes
+- [Failed Payment Troubleshooting](/billing/failed-payment): Learn why payments fail and how to resolve billing issues
+- [How to Request a Refund](/billing/request-refund): Request a refund for your Rallies subscription
+- [Refund Policy](/billing/refund-policy): Understand the Rallies.ai refund policy
+
+## AI Assistant
+
+- [How the AI Research Assistant Works](/ai-assistant/how-it-works): Learn how the Rallies AI works, what data sources it uses, and how it generates answers
+- [What Can I Ask the AI? (Use Cases)](/ai-assistant/what-to-ask): Discover what you can ask the AI for stock analysis, portfolio review, and learning
+- [Getting Better Answers: Prompt Tips](/ai-assistant/prompt-tips): Get more useful answers from the AI with prompting techniques
+- [Understanding AI Limitations](/ai-assistant/limitations): Understand what the AI can and can't do, and how to get the most accurate results
+- [Why the AI Can't Give Buy/Sell Recommendations](/ai-assistant/no-recommendations): Understand why the AI cannot give personalized investment advice
+- [Using AI for Stock Analysis](/ai-assistant/stock-analysis): Learn how to use AI for comprehensive stock analysis
+- [Deep Research Mode](/ai-assistant/deep-research): Get comprehensive 100-point analysis on any stock in about 60 seconds
+- [AI Rate Limits & Usage Caps](/ai-assistant/rate-limits): Understand usage limits for the AI Research Assistant
+- [Premium AI Features](/ai-assistant/premium-features): Discover enhanced AI capabilities available to Pro subscribers
+- [Reporting Inaccurate AI Responses](/ai-assistant/report-issues): Learn how to report when the AI gives wrong information
+
+## Research Tools
+
+- [Understanding Stock Pages](/research/stock-pages): Learn how to use stock pages with all data, charts, and metrics
+- [Understanding Financial Statements](/research/financial-statements): Learn how to read income statements, balance sheets, and cash flow statements
+- [Reading Stock Charts](/research/charts): Learn how to interpret stock charts and technical indicators
+- [What Analyst Ratings Mean](/research/analyst-ratings): Understand buy, sell, and hold ratings from Wall Street analysts
+- [Using the Vibe Screener](/research/screener): Find stocks using plain English with the AI-powered screener
+- [Advanced Screener Filters](/research/advanced-filters): Use precise metric filters and custom ranges in the screener
+- [Saving and Managing Screens](/research/saved-screens): Save, edit, and organize your stock screens
+
+## Watchlists
+
+- [Creating Your First Watchlist](/watchlists/create-watchlist): Learn how to create and manage watchlists to track stocks
+- [Adding & Removing Stocks from Watchlists](/watchlists/add-remove-stocks): Manage stocks in your watchlists on web and mobile
+- [Organizing Multiple Watchlists](/watchlists/organize): Tips for organizing and managing multiple watchlists effectively
+- [Watchlist Tips & Best Practices](/watchlists/tips): Get the most out of watchlists with proven tips and best practices
+- [Setting Up Price Alerts](/watchlists/price-alerts): Get notified when stocks hit your target prices
+- [Types of Price Alerts](/watchlists/alert-types): Explore different types of price alerts available
+- [Why Didn't I Get My Alert?](/watchlists/why-no-alert): Troubleshoot missed price alerts
+
+## Portfolio
+
+- [Setting Up Your Portfolio](/portfolio/setup): Set up portfolio tracking with brokerage connection or manual entry
+- [Adding Holdings Manually](/portfolio/add-manually): Manually add stocks to your portfolio without connecting a brokerage
+- [Editing and Removing Holdings](/portfolio/edit-holdings): Edit, update, or remove stock holdings in your portfolio
+- [Connecting Your Brokerage Account](/portfolio/connect-brokerage): Connect your brokerage for automatic portfolio syncing
+- [Supported Brokerages](/portfolio/supported-brokerages): See which brokerage accounts can be connected to Rallies
+- [Troubleshooting Brokerage Connection](/portfolio/connection-issues): Fix issues connecting your brokerage account
+- [Understanding Portfolio Performance](/portfolio/performance): Track and understand your portfolio performance and returns
+- [Portfolio Allocation Analysis](/portfolio/allocation): Understand your portfolio's diversification and allocation
+- [Portfolio Data Security](/portfolio/security): Learn how Rallies protects your portfolio data
+- [Portfolio Troubleshooting](/portfolio/troubleshooting): Fix common issues with your portfolio
+
+## Data & Sources
+
+- [About Our Data Sources](/data/data-sources): Learn where Rallies.ai gets its financial data
+- [Data Coverage & Limitations](/data/coverage): Understand what markets and data types Rallies covers
+- [Data Freshness & Update Frequency](/data/update-frequency): Learn how often different types of data are updated
+
+## Mobile App
+
+- [Downloading the Mobile App](/mobile/download): Download the Rallies.ai mobile app for iPhone and Android
+- [Setting Up the Mobile App](/mobile/setup): Configure the mobile app after installation
+- [Mobile App Features](/mobile/features): Explore features of the mobile app including push notifications and widgets
+- [Mobile App Troubleshooting](/mobile/troubleshooting): Fix common issues with the mobile app on iOS and Android
+
+## AI Arena
+
+- [What is the AI Arena?](/ai-arena/overview): Learn about the AI Arena where AI models compete in stock picking
+- [Following AI Models](/ai-arena/following-models): Track AI models, see their picks, and get notified of trades
+- [Understanding Model Performance](/ai-arena/performance): Learn how to interpret AI model metrics and performance data
+- [AI Arena Notifications](/ai-arena/notifications): Set up alerts for AI model trades and activity
+
+## Troubleshooting
+
+- [I Can't Log In to My Account](/troubleshooting/cant-log-in): Fix common login issues including forgotten passwords
+- [I'm Not Receiving Emails from Rallies](/troubleshooting/not-receiving-emails): Fix email delivery issues including alerts and verification emails
+- [The Page Won't Load / Blank Screen](/troubleshooting/page-wont-load): Fix loading issues and blank screens
+- [Browser Compatibility Issues](/troubleshooting/browser-compatibility): Learn which browsers work best with Rallies
+- [Clearing Cache & Cookies](/troubleshooting/clear-cache): Clear browser cache and cookies to fix common issues
+- [Data Isn't Loading or Updating](/troubleshooting/data-not-updating): Fix issues with stock data or portfolio not loading
+- [AI Isn't Responding](/troubleshooting/ai-not-responding): Fix issues when the AI isn't responding to questions
+- [Push Notifications Not Working](/troubleshooting/push-not-working): Troubleshoot push notification delivery issues
+- [Payment Failed / Card Declined](/troubleshooting/payment-failed): Fix payment failures and declined cards
+- [I Was Charged Incorrectly](/troubleshooting/charged-incorrectly): Report incorrect charges and get refunds for billing errors
+- [Known Issues & Status Page](/troubleshooting/status): Check for known outages and service disruptions
+
+## Legal
+
+- [Important Disclaimer: We Are Not Investment Advisors](/legal/disclaimer): Understand what Rallies provides and our limitations
+- [Privacy Policy](/legal/privacy-policy): Complete privacy policy for Rallies.ai
+- [Privacy Policy Summary](/legal/privacy-summary): Plain-language summary of how we handle your data
+- [Terms of Service](/legal/terms-of-service): Complete terms of service governing use of Rallies.ai
+- [Terms of Service Summary](/legal/terms-summary): Plain-language summary of the Terms of Service
+- [How We Handle Your Data](/legal/data-handling): User-friendly guide to how we protect your data
+
+## Support
+
+- [How to Contact Support](/support/contact): Learn how to contact our support team
+- [What to Include in a Support Request](/support/what-to-include): Get faster help by including the right information
+- [Support Hours & Response Times](/support/response-times): Learn when support is available and response times
+- [Escalating an Issue](/support/escalate): Learn when and how to escalate a support issue
+- [Providing Feedback & Suggestions](/support/feedback): Share feedback and suggest new features
