@@ -1,13 +1,19 @@
 {
   "$schema": "https://mintlify.com/docs.json",
-  "theme": "mint",
+  "theme": "maple",
   "name": "Rallies Support Center",
   "colors": {
-    "primary": "#6366F1",
-    "light": "#818CF8",
-    "dark": "#4F46E5"
+    "primary": "#2E2E2E",
+    "light": "#404040",
+    "dark": "#1C1C1C"
   },
-  "favicon": "/favicon.svg",
+  "favicon": "/favicon.ico",
+  "appearance": {
+    "default": "light"
+  },
+  "background": {
+    "decoration": "grid"
+  },
   "navigation": {
     "tabs": [
       {
@@ -212,7 +218,7 @@
   "footer": {
     "socials": {
       "x": "https://x.com/ralliesai",
-      "github": "https://github.com/ralliesai"
+      "linkedin": "https://www.linkedin.com/company/rallies/"
     }
   }
 }
