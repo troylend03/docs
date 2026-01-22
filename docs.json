@@ -35,6 +35,7 @@
         "groups": [
           {
             "group": "Getting Started",
+            "icon": "rocket",
             "pages": [
               "index",
               "getting-started/what-is-rallies",
@@ -45,99 +46,196 @@
           },
           {
             "group": "Account",
+            "icon": "user",
             "pages": [
-              "account/change-email",
-              "account/change-password",
-              "account/reset-password",
-              "account/two-factor-authentication",
-              "account/link-social",
-              "account/security-best-practices",
-              "account/notifications",
-              "account/email-preferences",
-              "account/download-data",
-              "account/delete-account"
+              {
+                "group": "Profile & Security",
+                "icon": "shield-halved",
+                "pages": [
+                  "account/change-email",
+                  "account/change-password",
+                  "account/reset-password",
+                  "account/two-factor-authentication",
+                  "account/link-social",
+                  "account/security-best-practices"
+                ]
+              },
+              {
+                "group": "Preferences",
+                "icon": "sliders",
+                "pages": [
+                  "account/notifications",
+                  "account/email-preferences"
+                ]
+              },
+              {
+                "group": "Data & Privacy",
+                "icon": "lock",
+                "pages": [
+                  "account/download-data",
+                  "account/delete-account"
+                ]
+              }
             ]
           },
           {
             "group": "Billing & Subscription",
+            "icon": "credit-card",
             "pages": [
-              "billing/plans",
-              "billing/free-vs-premium",
-              "billing/upgrade",
-              "billing/trial",
-              "billing/promo-codes",
-              "billing/cancel",
-              "billing/downgrade",
-              "billing/pause",
-              "billing/what-happens-after-cancel",
-              "billing/restart-subscription",
-              "billing/billing-cycles",
-              "billing/change-cycle",
-              "billing/update-payment",
-              "billing/payment-methods",
-              "billing/invoices",
-              "billing/download-receipts",
-              "billing/failed-payment",
-              "billing/request-refund",
-              "billing/refund-policy"
+              {
+                "group": "Plans & Pricing",
+                "icon": "tags",
+                "pages": [
+                  "billing/plans",
+                  "billing/free-vs-premium",
+                  "billing/upgrade",
+                  "billing/trial",
+                  "billing/promo-codes"
+                ]
+              },
+              {
+                "group": "Managing Your Subscription",
+                "icon": "arrows-rotate",
+                "pages": [
+                  "billing/cancel",
+                  "billing/downgrade",
+                  "billing/pause",
+                  "billing/what-happens-after-cancel",
+                  "billing/restart-subscription"
+                ]
+              },
+              {
+                "group": "Payments & Invoices",
+                "icon": "receipt",
+                "pages": [
+                  "billing/billing-cycles",
+                  "billing/change-cycle",
+                  "billing/update-payment",
+                  "billing/payment-methods",
+                  "billing/invoices",
+                  "billing/download-receipts"
+                ]
+              },
+              {
+                "group": "Refunds & Issues",
+                "icon": "rotate-left",
+                "pages": [
+                  "billing/failed-payment",
+                  "billing/request-refund",
+                  "billing/refund-policy"
+                ]
+              }
             ]
           },
           {
             "group": "AI Assistant",
+            "icon": "robot",
             "pages": [
-              "ai-assistant/how-it-works",
-              "ai-assistant/what-to-ask",
-              "ai-assistant/prompt-tips",
-              "ai-assistant/limitations",
-              "ai-assistant/no-recommendations",
-              "ai-assistant/stock-analysis",
-              "ai-assistant/deep-research",
-              "ai-assistant/rate-limits",
-              "ai-assistant/premium-features",
-              "ai-assistant/report-issues"
+              {
+                "group": "Getting Started with AI",
+                "icon": "sparkles",
+                "pages": [
+                  "ai-assistant/how-it-works",
+                  "ai-assistant/what-to-ask",
+                  "ai-assistant/prompt-tips"
+                ]
+              },
+              {
+                "group": "AI Features",
+                "icon": "wand-magic-sparkles",
+                "pages": [
+                  "ai-assistant/stock-analysis",
+                  "ai-assistant/deep-research",
+                  "ai-assistant/premium-features"
+                ]
+              },
+              {
+                "group": "Limitations & Support",
+                "icon": "circle-info",
+                "pages": [
+                  "ai-assistant/limitations",
+                  "ai-assistant/no-recommendations",
+                  "ai-assistant/rate-limits",
+                  "ai-assistant/report-issues"
+                ]
+              }
             ]
           },
           {
             "group": "Research Tools",
+            "icon": "magnifying-glass-chart",
             "pages": [
               "research/stock-pages",
               "research/financial-statements",
               "research/charts",
               "research/analyst-ratings",
-              "research/screener",
-              "research/advanced-filters",
-              "research/saved-screens"
+              {
+                "group": "Stock Screener",
+                "icon": "filter",
+                "pages": [
+                  "research/screener",
+                  "research/advanced-filters",
+                  "research/saved-screens"
+                ]
+              }
             ]
           },
           {
             "group": "Watchlists",
+            "icon": "eye",
             "pages": [
               "watchlists/create-watchlist",
               "watchlists/add-remove-stocks",
               "watchlists/organize",
               "watchlists/tips",
-              "watchlists/price-alerts",
-              "watchlists/alert-types",
-              "watchlists/why-no-alert"
+              {
+                "group": "Price Alerts",
+                "icon": "bell",
+                "pages": [
+                  "watchlists/price-alerts",
+                  "watchlists/alert-types",
+                  "watchlists/why-no-alert"
+                ]
+              }
             ]
           },
           {
             "group": "Portfolio",
+            "icon": "chart-pie",
             "pages": [
-              "portfolio/setup",
-              "portfolio/add-manually",
-              "portfolio/edit-holdings",
-              "portfolio/connect-brokerage",
-              "portfolio/supported-brokerages",
-              "portfolio/connection-issues",
-              "portfolio/performance",
-              "portfolio/allocation",
-              "portfolio/security",
-              "portfolio/troubleshooting"
+              {
+                "group": "Setup & Holdings",
+                "icon": "folder-plus",
+                "pages": [
+                  "portfolio/setup",
+                  "portfolio/add-manually",
+                  "portfolio/edit-holdings"
+                ]
+              },
+              {
+                "group": "Brokerage Connection",
+                "icon": "link",
+                "pages": [
+                  "portfolio/connect-brokerage",
+                  "portfolio/supported-brokerages",
+                  "portfolio/connection-issues"
+                ]
+              },
+              {
+                "group": "Analysis & Security",
+                "icon": "chart-line",
+                "pages": [
+                  "portfolio/performance",
+                  "portfolio/allocation",
+                  "portfolio/security",
+                  "portfolio/troubleshooting"
+                ]
+              }
             ]
           },
           {
             "group": "Data & Sources",
+            "icon": "database",
             "pages": [
               "data/data-sources",
               "data/coverage",
@@ -146,6 +244,7 @@
           },
           {
             "group": "Mobile App",
+            "icon": "mobile-screen",
             "pages": [
               "mobile/download",
               "mobile/setup",
@@ -155,6 +254,7 @@
           },
           {
             "group": "AI Arena",
+            "icon": "trophy",
             "pages": [
               "ai-arena/overview",
               "ai-arena/following-models",
@@ -164,33 +264,72 @@
           },
           {
             "group": "Troubleshooting",
+            "icon": "screwdriver-wrench",
             "pages": [
-              "troubleshooting/cant-log-in",
-              "troubleshooting/not-receiving-emails",
-              "troubleshooting/page-wont-load",
-              "troubleshooting/browser-compatibility",
-              "troubleshooting/clear-cache",
-              "troubleshooting/data-not-updating",
-              "troubleshooting/ai-not-responding",
-              "troubleshooting/push-not-working",
-              "troubleshooting/payment-failed",
-              "troubleshooting/charged-incorrectly",
+              {
+                "group": "Login & Access",
+                "icon": "right-to-bracket",
+                "pages": [
+                  "troubleshooting/cant-log-in",
+                  "troubleshooting/not-receiving-emails"
+                ]
+              },
+              {
+                "group": "App & Browser",
+                "icon": "window-maximize",
+                "pages": [
+                  "troubleshooting/page-wont-load",
+                  "troubleshooting/browser-compatibility",
+                  "troubleshooting/clear-cache"
+                ]
+              },
+              {
+                "group": "Data & Features",
+                "icon": "chart-simple",
+                "pages": [
+                  "troubleshooting/data-not-updating",
+                  "troubleshooting/ai-not-responding",
+                  "troubleshooting/push-not-working"
+                ]
+              },
+              {
+                "group": "Billing Issues",
+                "icon": "credit-card",
+                "pages": [
+                  "troubleshooting/payment-failed",
+                  "troubleshooting/charged-incorrectly"
+                ]
+              },
               "troubleshooting/status"
             ]
           },
           {
             "group": "Legal",
+            "icon": "scale-balanced",
             "pages": [
               "legal/disclaimer",
-              "legal/privacy-summary",
-              "legal/privacy-policy",
-              "legal/terms-summary",
-              "legal/terms-of-service",
-              "legal/data-handling"
+              {
+                "group": "Privacy",
+                "icon": "user-shield",
+                "pages": [
+                  "legal/privacy-summary",
+                  "legal/privacy-policy",
+                  "legal/data-handling"
+                ]
+              },
+              {
+                "group": "Terms",
+                "icon": "file-contract",
+                "pages": [
+                  "legal/terms-summary",
+                  "legal/terms-of-service"
+                ]
+              }
             ]
           },
           {
             "group": "Support",
+            "icon": "headset",
             "pages": [
               "support/contact",
               "support/what-to-include",
@@ -205,9 +344,19 @@
     "global": {
       "anchors": [
         {
-          "anchor": "Rallies.ai",
+          "anchor": "Go to Rallies",
           "href": "https://rallies.ai",
-          "icon": "chart-line"
+          "icon": "arrow-up-right-from-square"
+        },
+        {
+          "anchor": "Contact Support",
+          "href": "/support/contact",
+          "icon": "envelope"
+        },
+        {
+          "anchor": "System Status",
+          "href": "/troubleshooting/status",
+          "icon": "signal"
         }
       ]
     }
