@@ -383,11 +383,5 @@
       "x": "https://x.com/ralliesai",
       "linkedin": "https://www.linkedin.com/company/rallies/"
     }
-  },
-  "scripts": [
-    {
-      "src": "//code.tidio.co/z0mkdaizjuxmystdytsps0w5v74iuwpr.js",
-      "async": true
-    }
-  ]
+  }
 }
