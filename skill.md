@@ -66,7 +66,7 @@ Rallies.ai is an investment research and educational platform (not a financial a
 
 ### Portfolio
 - Set up portfolio tracking
-- Connect brokerage accounts (via Plaid)
+- Connect brokerage accounts (via secure connection)
 - Add holdings manually
 - View performance and allocation
 - Troubleshoot sync issues

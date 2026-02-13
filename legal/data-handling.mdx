@@ -45,7 +45,7 @@ For complete legal details, see our [Privacy Policy](/legal/privacy-policy).
 
 ### Data from Connected Services
 
-**Brokerage via Plaid:** [REVIEW REQUIRED: Confirm Plaid data fields]
+**Brokerage via Secure Connection:** [REVIEW REQUIRED: Confirm data fields]
 - Holdings/positions — Display portfolio
 - Cost basis — Calculate gains/losses
 - Transaction history — Track performance
@@ -123,7 +123,7 @@ Opt out by emailing privacy@rallies.ai.
 | Partner | Purpose | Access |
 |---------|---------|--------|
 | **Stripe** | Payments | Billing info |
-| **Plaid** | Brokerage | Auth tokens only |
+| **Brokerage aggregator** | Brokerage | Auth tokens only |
 | **Cloud hosting** | Infrastructure | Encrypted data |
 | **Email service** | Notifications | Email addresses |
 
@@ -137,11 +137,11 @@ We do not sell, rent, or trade your personal information.
 
 ## Brokerage Connection Security
 
-### How Plaid Works
+### How Brokerage Connection Works
 
-1. You enter credentials directly with Plaid (not us)
-2. Plaid verifies identity with your brokerage
-3. Plaid gives us a secure token
+1. You enter credentials directly with our secure connection service (not us)
+2. The service verifies identity with your brokerage
+3. It provides us a secure token
 4. We fetch read-only portfolio information
 
 **We never see your brokerage password.**
