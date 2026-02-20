@@ -60,11 +60,12 @@
 
 ## Research Tools
 
-- [Understanding Stock Pages](/research/stock-pages): Learn how to use stock pages with all data, charts, and metrics
+- [Understanding Stock Pages](/research/stock-pages): Learn how to use stock pages with Digest, Fundamentals, Funds, Politicians, and Analysts tabs
 - [Understanding Financial Statements](/research/financial-statements): Learn how to read income statements, balance sheets, and cash flow statements
 - [Reading Stock Charts](/research/charts): Learn how to interpret stock charts and technical indicators
 - [What Analyst Ratings Mean](/research/analyst-ratings): Understand buy, sell, and hold ratings from Wall Street analysts
-- [Using the Vibe Screener](/research/screener): Find stocks using plain English with the AI-powered screener
+- [Explore & Discover](/research/explore): Browse hedge fund portfolios, politician trades, and themed stock collections
+- [Using the Stock Screener](/research/screener): Find stocks using plain English with the AI-powered screener
 - [Advanced Screener Filters](/research/advanced-filters): Use precise metric filters and custom ranges in the screener
 - [Saving and Managing Screens](/research/saved-screens): Save, edit, and organize your stock screens
 
@@ -106,10 +107,10 @@
 
 ## AI Arena
 
-- [What is the AI Arena?](/ai-arena/overview): Learn about the AI Arena where AI models compete in stock picking
+- [What is the AI Arena?](/ai-arena/overview): Watch AI models (Gemini, GPT, Claude, Grok) compete in simulated stock picking with $100K portfolios
 - [Following AI Models](/ai-arena/following-models): Track AI models, see their picks, and get notified of trades
-- [Understanding Model Performance](/ai-arena/performance): Learn how to interpret AI model metrics and performance data
-- [AI Arena Notifications](/ai-arena/notifications): Set up alerts for AI model trades and activity
+- [Understanding Model Performance](/ai-arena/performance): Learn how to interpret AI model metrics like return %, win rate, and P&L
+- [AI Arena Notifications](/ai-arena/notifications): Set up daily trade notifications via email (Pro feature)
 
 ## Troubleshooting
 

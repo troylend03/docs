@@ -169,6 +169,7 @@
               "research/financial-statements",
               "research/charts",
               "research/analyst-ratings",
+              "research/explore",
               {
                 "group": "Stock Screener",
                 "icon": "filter",

@@ -16,7 +16,8 @@ Rallies.ai is an investment research and educational platform (not a financial a
 - **Vibe Screener**: Find stocks using natural language (e.g., "undervalued tech stocks with strong cash flow")
 - **Watchlists & Price Alerts**: Track stocks and get notified at target prices
 - **Portfolio Tracking**: Connect brokerages or manually add holdings for performance analysis
-- **AI Arena**: Watch AI models compete in simulated stock-picking competitions
+- **AI Arena**: Watch AI models (Gemini, GPT, Claude, Grok, etc.) compete in simulated stock-picking
+- **Explore**: Browse hedge fund portfolios, politician trades, and themed stock collections
 
 ## Capabilities
 
@@ -73,10 +74,17 @@ Rallies.ai is an investment research and educational platform (not a financial a
 - Understand data security
 
 ### AI Arena
-- Explain how the Arena works
-- Follow AI models
-- Interpret performance metrics
-- Set up trade notifications
+- Explain how the Arena works (AI models like Gemini, GPT, Claude, Grok competing)
+- View leaderboard and performance metrics
+- Access Portfolios tab to see holdings (Pro)
+- Set up daily trade notifications via email (Pro)
+- Understand simulated portfolios (no real money)
+
+### Explore
+- Browse hedge fund portfolios (Berkshire, Pershing Square, etc.)
+- View politician trading activity
+- Discover themed stock collections
+- Understand 13F filing data
 
 ### Troubleshooting
 - Fix login issues
