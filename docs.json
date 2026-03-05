@@ -38,6 +38,7 @@
             "icon": "rocket",
             "pages": [
               "index",
+              "guides",
               "getting-started/what-is-rallies",
               "getting-started/create-account",
               "getting-started/verify-email",
@@ -333,6 +334,7 @@
             "icon": "headset",
             "pages": [
               "support/contact",
+              "support/live-chat",
               "support/what-to-include",
               "support/response-times",
               "support/escalate",
@@ -384,5 +386,6 @@
       "x": "https://x.com/ralliesai",
       "linkedin": "https://www.linkedin.com/company/rallies/"
     }
-  }
+  },
+  "js": ["tidio.js"]
 }
