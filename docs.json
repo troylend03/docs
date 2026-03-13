@@ -302,7 +302,7 @@
                   "troubleshooting/charged-incorrectly"
                 ]
               },
-              "troubleshooting/status"
+              "status"
             ]
           },
           {
@@ -358,7 +358,7 @@
         },
         {
           "anchor": "System Status",
-          "href": "/troubleshooting/status",
+          "href": "/status",
           "icon": "signal"
         }
       ]
